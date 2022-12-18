@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieBox</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <div class="header">
+      
+      <img class="poster" src="./Images/Poster.svg">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./Images/tv.svg">
+          <h1 id="title">MovieBox</h1>
+        </div>
+        <div class="searchbox">
+          <input type="search" placeholder="What do you want to watch?">
+          <span class="fa fa-search"></span>
+        </div>
+        <div class="section">
+          
+          <p>Sign in</p>
+
+          <button class="hamburger">
+            <i class="menuIcon material-icons"></i>
+            <i class="closeIcon material-icons"></i>
+          </button>
+
+          
+        </div>
+        <!-- Side nav -->
+        <div class="sidenav">
+          <!-- App profile -->
+          <div class="profile">
+            <img src="./Images/tv.svg" alt="tv">
+            <h1 id="title">MovieBox</h1>
+          </div>
+          <!-- menu item -->
+        <div class="menuitems1">
+          <ul>
+            <li><a class="active" href="#">
+                 <span class="icon"><i class="fas fa-home"></i></span>
+                 <span class="item"> Home</span>
+            </a></li>
+            <li><a href="#">
+              <span class="icon"><img src="./Images/topcharts.svg"></i></span>
+                 <span class="item"> Top Charts</span>
+            </a></li>
+            <li><a href="#">
+              <span class="icon"><img src="./Images/genres.svg"></i></span>
+                <span class="item"> Genres</span>
+            </a></li>
+            <li><a href="#">
+              <span class="icon"><img src="Images/newRelease.svg"></i></span>
+                <span class="item"> New Release</span>
+            </a></li>
+            </ul>
+        </div>
+        <div class="menuitems2">
+            <ul>
+            <li><a class="active" href="#">
+              <span class="icon"><i class="fas fa-star"></i></span>
+                <span class="item"> Favorites</span>
+            </a></li>
+            <li><a href="#">
+              <span class="icon"><img src="Images/profile.svg"></i></span>
+                <span class="item"> Profile</span>
+            </a></li>
+            <li><a href="#">
+              <span class="icon"><img src="./Images/logout.svg"></i></span>
+                <span class="item"> Logout</span>
+            </a></li>
+            <li><a href="#">
+                <span class="icon"><img src="Images/info.svg"></i></span>
+                <span class="item"> Info</span>
+            </a></li>
+            </ul>
+            
+        </div>
+
+        </div>
+        
+          
+        </div> 
+        <section class="app-header-content container">
+          <div class="app-hero">
+            <h1>John Wick 3 : Parabellum</h1>
+            <div class="Rating">
+              <span class="IMDB">
+                <img  src="./Images/IMDB.svg">
+              <p>86.0 / 100</p>
+              </span>
+              <span class="Rotten">
+                <img  src="Images/RottenTomatoes.svg">
+              <p>97%</p>
+              </span> 
+            </div>
+            <h3>
+              John Wick is on the run after killing a member of the international
+              assassins' guild, and with <br> a $14 million price tag on his head, he
+              is the target of hit men and women everywhere.
+            </h3>
+            <span class="btn">
+            
+              <button class="button"><img class="PlayIcon" src="./Images/PlayIcon.svg">
+                WATCH TRAILER
+              </button>
+            </span>
+           </div>
+        </section>
+      </div>
+
+    </div>
+
+   
+    <div class="featured-movie">
+     
+         <h3>Featured Movie</h3>
+       <span class="more">
+         <h4>See More</h4>
+         <i class="fa fa-chevron-right" aria-hidden="true"></i>
+       </span>
+    
+      </div>
+          
+         <section class="movie-list">
+              <!--Stranger Things-->
+               <div class="movie-card">
+                 <img class="movie-poster" src="./Images/Stranger things.svg">
+                    <div class="fav">
+                       <span class="tv-series">
+                           <p id="series">TV SERIES</p>
+                                 </span>
+                             <span class="favorite">
+                        <img class="heart" src="./Images/heart.svg">
+                      </span>
+    </div>
+   <div class="movie-desc">
+         <p class="first-title">USA, 2016 - Current</p>
+         <h1 class="movie-name">Stranger Things</h1>
+     <div class="movie-rating">
+        <span class="IMDB">
+          <img  src="./Images/IMDB.svg">
+          <p>86.0 / 100</p>
+        </span>
+        <span class="rotten-rate">
+          <img  src="Images/RottenTomatoes.svg">
+          <p>97%</p>
+        </span>   
+     </div>
+          <p class="movie-cat">Action, Adventure, Horror</p>
+    </div>
+  </div>
+          <!--Batman Begins-->
+            <div class="movie-card">
+        <img class="movie-poster" src="./Images/Batman.svg">
+       <div class="fav">
+         
+         <span class="favorite">
+          <img class="heart" src="./Images/Pink heart.svg">
+         </span>
+          </div>
+         <div class="movie-desc">
+               <p class="first-title">USA, 2005</p>
+               <h1 class="movie-name">Batman Begins</h1>
+           <div class="movie-rating">
+              <span class="IMDB">
+                <img  src="./Images/IMDB.svg">
+                <p>82.0 / 100</p>
+              </span>
+              <span class="rotten-rate">
+                <img  src="Images/RottenTomatoes.svg">
+                <p>70%</p>
+              </span>   
+           </div>
+                <p class="movie-cat">Action, Adventure</p>
+          </div>
+        </div>
+              <!--Spider-Man : Into The  -->
+              <div class="movie-card">
+                <img class="movie-poster" src="./Images/Spider Man.svg">
+           <div class="fav">
+             
+            <span class="favorite">
+              <img class="heart" src="./Images/Heart.svg">
+            </span>
+           </div>
+           <div class="movie-desc">
+            <p class="first-title">USA, 2018</p>
+            <h1 class="movie-name">Spider-Man : Into The</h1>
+           <div class="movie-rating">
+            <span class="IMDB">
+              <img  src="./Images/IMDB.svg">
+               <p>86.0 / 100</p>
+            </span>
+            <span class="rotten-rate">
+              <img  src="Images/RottenTomatoes.svg">
+              <p>97%</p>
+            </span>   
+           </div>
+               <p class="movie-cat">Animation, Action, Adventure</p>
+          </div> 
+        </div>
+        <!--Dunkirk -->
+        <div class="movie-card">
+          <img class="movie-poster" src="./Images/Dunkirk.svg">
+     <div class="fav">
+       
+      <span class="favorite">
+        <img class="heart" src="./Images/Heart.svg">
+      </span>
+     </div>
+     <div class="movie-desc">
+      <p class="first-title">USA, 2017</p>
+      <h1 class="movie-name">Dunkirk</h1>
+     <div class="movie-rating">
+      <span class="IMDB">
+        <img  src="./Images/IMDB.svg">
+         <p>78.0 / 100</p>
+      </span>
+      <span class="rotten-rate">
+        <img  src="Images/RottenTomatoes.svg">
+        <p>94%</p>
+      </span>   
+     </div>
+         <p class="movie-cat">Action, Drama, History</p>
+    </div>
+     
+  </section>
+
+  <!--2-->
+  <div class="new-arrival">
+    <h3>New Arrival</h3>
+       <span class="more">
+         <h4>See More</h4>
+         <i class="fa fa-chevron-right" aria-hidden="true"></i>
+       </span>
+  </div>
+
+  <!--new arrival-->
+
+  <section class="new-movie">
+    <!--Dune-->
+     <div class="movie-card">
+       <img class="movie-poster" src="./Images/Dune.svg">
+          <div class="fav">
+                   <span class="favorite">
+              <img class="heart" src="./Images/heart.svg">
+            </span>
+</div>
+<div class="movie-desc">
+<p class="first-title">USA, 2021</p>
+<h1 class="movie-name">Dune</h1>
+<div class="movie-rating">
+<span class="IMDB">
+<img  src="./Images/IMDB.svg">
+<p>84.0 / 100</p>
+</span>
+<span class="rotten-rate">
+<img  src="Images/RottenTomatoes.svg">
+<p>75%</p>
+</span>   
+</div>
+<p class="movie-cat">Action, Adventure, Drama</p>
+</div>
+</div>
+<!--No Time To Die-->
+  <div class="movie-card">
+<img class="movie-poster" src="./Images/007.svg">
+<div class="fav">
+
+<span class="favorite">
+<img class="heart" src="./Images/heart.svg">
+</span>
+</div>
+<div class="movie-desc">
+     <p class="first-title">USA, 2021</p>
+     <h1 class="movie-name">No Time To Die</h1>
+ <div class="movie-rating">
+    <span class="IMDB">
+      <img  src="./Images/IMDB.svg">
+      <p>76.0 / 100</p>
+    </span>
+    <span class="rotten-rate">
+      <img  src="Images/RottenTomatoes.svg">
+      <p>68%</p>
+    </span>   
+ </div>
+      <p class="movie-cat">Action, Adventure, Thriller</p>
+</div>
+</div>
+    <!--Shang-Chi and the Legend -->
+    <div class="movie-card">
+      <img class="movie-poster" src="./Images/shang.svg">
+ <div class="fav">
+   
+  <span class="favorite">
+    <img class="heart" src="./Images/Heart.svg">
+  </span>
+ </div>
+ <div class="movie-desc">
+  <p class="first-title">USA, 2021</p>
+  <h1 class="movie-name1">Shang-Chi and the Legend</h1>
+ <div class="movie-rating">
+  <span class="IMDB">
+    <img  src="./Images/IMDB.svg">
+     <p>79.0 / 100</p>
+  </span>
+  <span class="rotten-rate">
+    <img  src="Images/RottenTomatoes.svg">
+    <p>71%</p>
+  </span>   
+ </div>
+     <p class="movie-cat">Action, Adventure, Fantasy</p>
+</div> 
+</div>
+<!--Don't Breathe 2 -->
+<div class="movie-card">
+<img class="movie-poster" src="./Images/Dont b.svg">
+<div class="fav">
+
+<span class="favorite">
+<img class="heart" src="./Images/Heart.svg">
+</span>
+</div>
+<div class="movie-desc">
+<p class="first-title">USA, 2021</p>
+<h1 class="movie-name">Don't Breathe 2</h1>
+<div class="movie-rating">
+<span class="IMDB">
+<img  src="./Images/IMDB.svg">
+<p>61.0 / 100</p>
+</span>
+<span class="rotten-rate">
+<img  src="Images/RottenTomatoes.svg">
+<p>46%</p>
+</span>   
+</div>
+<p class="movie-cat">Action, Drama, Horror</p>
+</div>
+
+</section>
+<!--Exclusive videos-->
+<div class="exc-videos">
+  <h3>Exclusive videos</h3>
+     <span class="more">
+       <h4>See More</h4>
+       <i class="fa fa-chevron-right" aria-hidden="true"></i>
+     </span>
+</div>
+ 
+ <div class="exc-main">
+     <img  class="pic" src="./Images/lamb1.svg">
+     
+     <img class="pic" src="./Images/Suicide.svg">
+  
+     <img  class="pic1" src="Images/will there.svg">
+ </div>
+
+
+<!--Featured Casts-->
+
+<div class="featured-casts">
+  <h3>Featured Casts</h3>
+  <span class="more">
+    <h4>See More</h4>
+    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+  </span>
+</div>
+
+<div class="casts-main">
+  <img  class="castPic" src="./Images/keanu.svg">
+  
+  <img class="castPic" src="./Images/Ryan.svg">
+
+  <img  class="castPic" src="Images/timothee.svg">
+
+  <img  class="castPic" src="./Images/Chloe.svg">
+</div>
+
+
+<!--footer-->
+
+<div class="footer" >
+  <span class="social">
+    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+  </span>
+
+  <span class="links">
+    <p>Conditions of Use</p>
+    <p>Privacy & Policy</p>
+    <p>Press Room</p>
+  </span>
+    <p id="copyright">© 2021 MovieBox by Adriana Eka Prayudha</p>
+</div>
+
+
+   </body>
+   <script>
+     const sidenav = document.querySelector(".sidenav");
+     const menuitems1 = document.querySelectorAll(".menuItem");
+   </script>
+</html>

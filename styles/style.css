@@ -1,0 +1,643 @@
+* {
+  font-family: "DM Sans", "sans-serif";
+  color: #fff;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #211825;
+  height: 3200px;
+  width: 100%;
+  position: relative;
+}
+
+.header {
+  overflow: hidden;
+  max-width: 754px;
+  width: 100%;
+  height: 600px;
+  margin-top: -8px;
+  margin-left: 8px;
+}
+
+.poster {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  object-fit: none;
+  left: -8px;
+  top: 0;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+}
+
+.logo {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 0.938rem;
+  padding-left: 5.938rem;
+}
+
+#title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.searchbox {
+  padding-left: 25.6rem;
+  padding-top: 22px;
+  display: flex;
+  flex-direction: row;
+}
+.searchbox input {
+  width: 22.81rem;
+  height: 2.25rem;
+  left: 493px;
+  top: 22px;
+  border: 2px solid #d1d5db;
+  border-radius: 6px;
+  background-color: transparent;
+  padding: 6px 10px;
+  font-size: 16px;
+  cursor: text;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.851);
+}
+
+div .searchbox span {
+  position: absolute;
+  margin-left: 315px;
+  margin-top: 10px;
+}
+.app-hero {
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+  position: absolute;
+  width: 404px;
+  height: 285px;
+  left: 98px;
+  top: 116px;
+}
+.app-hero h1 {
+  font-weight: 700px;
+  font-size: 45px;
+  line-height: 56px;
+  color: #fff;
+  width: 404px;
+  height: 112px;
+}
+.app-hero h3 {
+  width: 302px;
+  height: 72px;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  max-width: 300px;
+}
+
+.Rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.Rating p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400px;
+}
+
+.IMDB {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Rotten {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding-top: 24px;
+}
+.button {
+  padding: 6px 16px;
+  width: 169px;
+  background: #657eff;
+  border-radius: 6px;
+  gap: 8px;
+  border: none;
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.PlayIcon {
+  position: absolute;
+  padding-right: 122px;
+}
+
+.sidenav {
+  background: #7756a0;
+  position: fixed;
+  width: 271px;
+  height: 600px;
+  top: 0;
+  right: 0;
+  padding: 20px 0;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  margin-right: 0px;
+  margin-top: 0px;
+  z-index: 1;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.menuitems1 {
+  padding-top: 16px;
+  border-bottom: 1px solid #4d5356;
+}
+.menuitems1 ul {
+  padding-left: 0%;
+}
+.menu-items2 ul {
+  padding-left: 0%;
+}
+
+.menu-items1 ul li a {
+  display: block;
+  padding: 18px 30px;
+  font-size: 15px;
+  position: relative;
+}
+
+.menu-items2 ul li a {
+  display: block;
+  padding: 18px 30px;
+  font-size: 15px;
+  position: relative;
+}
+.menu-items1 ul li a .icon {
+  width: 30px;
+  display: inline-block;
+}
+.menu-items2 ul li a .icon {
+  width: 30px;
+  display: inline-block;
+}
+/* link hover */
+.sidenav .menu-items1 ul li a:hover,
+.sidenav .menu-items1 ul li a.active {
+  background: #211825;
+  border-left: 8px solid #fff;
+}
+.sidenav .menu-items2 ul li a:hover {
+  background: #211825;
+  border-left: 8px solid #fff;
+}
+
+.hamburger {
+  font-size: 24px;
+  background: #7756a0;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-betweecentern;
+  align-items: center;
+  width: 114px;
+  height: 36;
+  margin-left: 70px;
+  padding-top: 22px;
+  gap: 10px;
+}
+.section p {
+  cursor: pointer;
+}
+
+body.active .sidenav {
+  left: -271px;
+}
+
+.featured-movie {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 47px;
+  padding-left: 34px;
+  padding-top: 90px;
+}
+
+.featured-movie h3 {
+  padding-left: 98px;
+  font-size: 2.25rem;
+  line-height: 2.938rem;
+  font-weight: 700;
+}
+.featured-movie span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-right: 98px;
+  flex-wrap: wrap;
+}
+.movie-list {
+  width: 100%;
+  height: 465px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  gap: 22px;
+  padding-top: 160px;
+}
+.movie-card {
+  background: #7756a0;
+  width: 272px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11px;
+  border-radius: 23px;
+}
+.movie-poster {
+  height: 308px;
+}
+.fav {
+  width: 224px;
+  height: 24.32px;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 114px;
+  border-radius: 19px;
+  padding: 20.97px 32px 270.71px 23p;
+  margin: 15px;
+}
+
+.tv-series {
+  background-color: #f3f4f680;
+  border-radius: 12px;
+  width: 74px;
+  height: 22px;
+  padding: 3px, 8px, 3px, 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#series {
+  color: #111827;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15.62px;
+}
+
+.favorite {
+  background-color: #7756a0;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart {
+  width: 20px;
+  height: 22px;
+  position: absolute;
+}
+
+.movie-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  padding-top: 312px;
+  padding-left: 16px;
+  width: 250px;
+}
+.first-title {
+  width: 144px;
+  height: 8px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 6px;
+}
+.movie-name {
+  width: 250px;
+  height: 26px;
+  font-size: 20px;
+  line-height: 26px;
+  padding-right: 16px;
+}
+.movie-rating {
+  width: 230px;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+}
+.IMDB {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 10px;
+}
+.IMDB p {
+  padding-bottom: 20 px;
+  font-size: 14px;
+}
+
+.rotten-rate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-right: 16px;
+  height: 17px;
+  width: 53px;
+}
+.rotten-rate p {
+  font-size: 14px;
+  line-height: 12px;
+}
+.movie-cat {
+  padding-bottom: 16px;
+  height: 16px;
+}
+
+.new-arrival {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 47px;
+  padding-left: 34px;
+  padding-top: 766px;
+}
+
+.new-arrival h3 {
+  padding-left: 98px;
+  font-size: 2.25rem;
+  line-height: 2.938rem;
+  font-weight: 700;
+}
+
+.new-arrival span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-right: 98px;
+  flex-wrap: wrap;
+}
+
+.new-movie {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 22px;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  height: 491px;
+  padding-left: 60px;
+  top: 1435px;
+}
+
+.movie-name1 {
+  width: 250px;
+  height: 26px;
+  font-size: 19px;
+  line-height: 26px;
+  padding-right: 16px;
+}
+
+.exc-videos {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 47px;
+  padding-left: 34px;
+  padding-top: 1450px;
+}
+.exc-videos h3 {
+  padding-left: 98px;
+  font-size: 2.25rem;
+  line-height: 2.938rem;
+  font-weight: 700;
+}
+.exc-videos span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-right: 98px;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+.exc-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+  gap: 5px;
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 288.12px;
+  left: 0px;
+  top: 2090px;
+}
+.pic {
+  width: 450px;
+}
+.pic1 {
+  width: 280px;
+  padding-right: 34px;
+}
+
+.featured-casts {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 2350px;
+  padding-left: 34px;
+  padding-top: 1450px;
+}
+.featured-casts h3 {
+  padding-left: 98px;
+  font-size: 2.25rem;
+  line-height: 2.938rem;
+  font-weight: 700;
+}
+.featured-casts span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-right: 98px;
+  flex-wrap: wrap;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.casts-main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 55px;
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 285px;
+  left: 60px;
+  top: 2558px;
+}
+
+.castPic {
+  width: 250px;
+  height: 250px;
+}
+
+.footer {
+  width: 492px;
+  height: 145.43px;
+  padding-top: 2550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  padding-left: 670px;
+  padding-bottom: 63px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 48px;
+  font-size: 24px;
+  width: 240px;
+  cursor: pointer;
+}
+
+.links {
+  width: 492px;
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 48px;
+  cursor: pointer;
+}
+
+#copyright {
+  width: 366px;
+  height: 23px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #e5e7eb;
+  padding-bottom: 62.57px;
+}
+
+.hamburger {
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 10px;
+  border: black solid 1px;
+  background: white;
+  cursor: pointer;
+}
+
+.closeIcon {
+  display: none;
+}

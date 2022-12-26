@@ -13,7 +13,7 @@
   }
   
   header {
-      background-image: url(/Images/Poster.svg);
+      background-image: url(../Images/Poster.svg);
       background-size: contain;
       background-repeat: no-repeat;
       height: 37.5em;
